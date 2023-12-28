@@ -1,0 +1,21 @@
+#+TITLE: NEmacs - NateNateNate's Emacs Config
+#+AUTHOR: NateNateNate
+#+STARTUP: overview
+#+OPTIONS: num:nil
+#+EMAIL: natenatenat3@protonmail.com
+
+* Usage Disclaimer
+This Emacs configuration is provided as-is, and its functionality is intended for personal use. While I've made efforts to ensure its reliability,
+please be aware of the following:
+
+- I suck at Emacs Lisp, so there could be limitations, bugs, or performance issues.
+- I also suck at [[https://en.wikipedia.org/wiki/Free_and_open-source_software#:~:text=Free%20and%20open%2Dsource%20software%20(FOSS)%20is%20a%20term,are%20encouraged%20to%20improve%20the][FOSS]].
+- This configuration might not be suitable for all use cases, and its behavior may change over time.
+- I may not be able to provide immediate or comprehensive support in case of issues or feature requests.
+
+If you encounter any problems or have suggestions for improvements, feel free to report them by creating an issue.
+
+By using my configuration, you agree to do so at your own discretion and understand that there may be limitations.
+
+Also, please read the [[./LICENSE.txt][LICENSE]].
+
