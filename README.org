@@ -5,6 +5,8 @@
 #+EMAIL: natenatenat3@protonmail.com
 
 * Usage Disclaimer
+You probably shouldn't use this configuration.
+
 This Emacs configuration is provided as-is, and its functionality is intended for personal use. While I've made efforts to ensure its reliability,
 please be aware of the following:
 
@@ -19,3 +21,25 @@ By using my configuration, you agree to do so at your own discretion and underst
 
 Also, please read the [[./LICENSE.txt][LICENSE]].
 
+* Language Support
+Emacs provides built-in language support for many languages, thankfully. The languages are list here are just the languages that
+I'll work in often. Emacs may/not support languages that aren't mentioned in this list.
+
+- [ ] C/CPP
+- [ ] Zig
+- [ ] Rust
+- [ ] Golang
+- [ ] Julia (I did this for you, Aizzat!)
+- [ ] Clojure
+- [ ] Common Lisp
+- [ ] PHP
+- [ ] JS/TS
+- [ ] Python
+- [ ] CSS
+- [ ] HTML/Markdown/YAML
+
+* Keybindings
+
+* Handling Updates
+If you decide to use this configuration (you shouldn't!), you'll have to update the configuration by running =git pull= and then run
+=M-x <RET> package-list-packages=, followed by =u= and =x=.
