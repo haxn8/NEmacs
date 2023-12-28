@@ -44,3 +44,5 @@ flycheck_*.el
 /tramp
 /transient/
 /var/
+/multisession/
+/lsp-cache/
