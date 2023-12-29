@@ -109,7 +109,7 @@
  '(custom-safe-themes
    '("0af489efe6c0d33b6e9b02c6690eb66ab12998e2649ea85ab7cfedfb39dd4ac9" default))
  '(package-selected-packages
-   '(flycheck plantuml-mode helm-themes speed-type ob-restclient org-superstar feature-mode company-anaconda mw-thesaurus badwolf-theme org-appear interaction-log multiple-cursors markdown-mode editorconfig company-php magit naysayer-theme eradio color-theme-sanityinc-tomorrow ef-themes format-all ace-window vagrant csv-mode gruber-darker-theme which-key pdf-tools color-theme-sanityinc-solarized hl-todo jetbrains-darcula-theme doom-themes kaolin-themes multi-vterm phpunit solarized-theme rust-mode expand-region git-gutter-fringe edit-indirect modus-themes standard-themes jbeans-theme web-mode helm)))
+   '(eglot flycheck plantuml-mode helm-themes speed-type ob-restclient org-superstar feature-mode company-anaconda mw-thesaurus badwolf-theme org-appear interaction-log multiple-cursors markdown-mode editorconfig company-php magit naysayer-theme eradio color-theme-sanityinc-tomorrow ef-themes format-all ace-window vagrant csv-mode gruber-darker-theme which-key pdf-tools color-theme-sanityinc-solarized hl-todo jetbrains-darcula-theme doom-themes kaolin-themes multi-vterm phpunit solarized-theme rust-mode expand-region git-gutter-fringe edit-indirect modus-themes standard-themes jbeans-theme web-mode helm)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
