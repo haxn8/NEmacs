@@ -30,5 +30,6 @@
 (load-file (concat config-dir "/modules/nemacs-csv-mode.el"))
 (load-file (concat config-dir "/modules/nemacs-pdf-tools.el"))
 (load-file (concat config-dir "/modules/nemacs-mw-thesaurus.el"))
+(load-file (concat config-dir "/modules/nemacs-restclient.el"))
 
 ;;; nemacs-bootstrap.el ends here
