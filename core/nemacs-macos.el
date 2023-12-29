@@ -1,4 +1,4 @@
-;;; nemacs-system.el --- All coding system based configurations go here.
+;;; nemacs-macos.el --- All darwin coding system based configurations go here.
 
 ;;; Commentary:
 
@@ -18,4 +18,4 @@
     (setq mac-option-modifier 'super)
     (setq ns-function-modifier 'hyper)))
 
-;;; nemacs-system.el ends here
+;;; nemacs-macos.el ends here
