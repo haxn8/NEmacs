@@ -42,7 +42,7 @@ I'll work in often. Emacs may/not support languages that aren't mentioned in thi
 * Keybindings
 
 | Kbd     | Function                      |
-| =C-c \=   | devdocs-lookup                |
+| =s-1=     | devdocs-lookup                |
 | =C-c r=   | nemacs/config-reload          |
 | =C-c e=   | nemacs/config-visit           |
 | =C-c f=   | nemacs/toggle-maximize-buffer |
