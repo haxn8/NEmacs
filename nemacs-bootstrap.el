@@ -43,6 +43,7 @@
 (load-file (concat config-dir "/modules/nemacs-company.el"))
 (load-file (concat config-dir "/modules/nemacs-flycheck.el"))
 (load-file (concat config-dir "/modules/nemacs-devdocs.el"))
+(load-file (concat config-dir "/modules/nemacs-eglot.el"))
 ;;(load-file (concat config-dir "/modules/nemacs-git-gutter.el"))
 ;;(load-file (concat config-dir "/modules/nemacs-git-blamer.el"))
 
