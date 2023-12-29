@@ -25,18 +25,19 @@ Also, please read the [[./LICENSE.txt][LICENSE]].
 Emacs provides built-in language support for many languages, thankfully. The languages are list here are just the languages that
 I'll work in often. Emacs may/not support languages that aren't mentioned in this list.
 
-- [ ] C/CPP
+- [X] C/CPP
 - [ ] Zig
-- [ ] Rust
+- [X] Rust
 - [ ] Golang
 - [ ] Julia (I did this for you, Aizzat!)
-- [ ] Clojure
-- [ ] Common Lisp
-- [ ] PHP
-- [ ] JS/TS
+- [X] Clojure
+- [X] Common Lisp
+- [X] Scheme
+- [X] PHP
+- [X] JS/TS
 - [ ] Python
-- [ ] CSS
-- [ ] HTML/Markdown/YAML
+- [X] CSS
+- [X] HTML/Markdown/YAML
 
 * Keybindings
 

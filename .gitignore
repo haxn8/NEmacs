@@ -56,3 +56,4 @@ flycheck_*.el
 /lsp-cache/
 /url/
 /speed-type/
+/request/
