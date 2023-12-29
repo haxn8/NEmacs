@@ -8,8 +8,6 @@
 ;;; Code:
 
 (global-set-key (kbd "M-?") 'mark-paragraph)
-(global-set-key (kbd "C-c C-x h") 'elisp-index-search)
-(global-set-key (kbd "C-c C-x k") 'describe-key)
 (global-set-key (kbd "M-h") 'backward-kill-word)
 (global-set-key (kbd "C-M-x") 'replace-string)
 (global-set-key (kbd "C-c M-p") 'find-file-at-point)

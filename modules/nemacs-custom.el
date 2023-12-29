@@ -48,11 +48,11 @@
 
 (defun nemacs/config-visit ()
   (interactive)
-  (find-file (concat (getenv "EMACS_CONFIG_PATH")) "config.org"))
+  (find-file (concat config-dir "README.org")))
 
 (defun nemacs/config-reload ()
   (interactive)
-  (org-babel-load-file (concat (getenv "EMACS_CONFIG_PATH") "config.org")))
+  (load-file (concat config-dir "init.el")))
 
 (global-set-key (kbd "C-c r") 'nemacs/config-reload)
 (global-set-key (kbd "C-c e") 'nemacs/config-visit)
