@@ -41,6 +41,35 @@ I'll work in often. Emacs may/not support languages that aren't mentioned in thi
 
 * Keybindings
 
+| Kbd     | Function                      |
+| =C-c \=   | devdocs-lookup                |
+| =C-c r=   | nemacs/config-reload          |
+| =C-c e=   | nemacs/config-visit           |
+| =C-c f=   | nemacs/toggle-maximize-buffer |
+| =C-c z >= | eradio-play                   |
+| =C-c z <= | eradio-stop                   |
+| =C-c z -= | eradio-toggle                 |
+| =C-x g=   | magit-status                  |
+| =M-o=     | ace-window                    |
+| =M-O=     | ace-swap-window               |
+| C-=     | er/expand-region              |
+| =M-+=     | helm-themes                   |
+| =C-c b=   | switch-to-buffer              |
+| =M-y=     | helm-show-kill-ring           |
+| =M-n=     | avy-goto-char                 |
+| =M-?=     | Mark paragraph                |
+| =C-c M-p= | find-file-at-point            |
+| =C-c m=   | delete pair                   |
+| =C-x C-.= | align-regexp                  |
+| =C-c h=   | compile                       |
+| =C-c c=   | imenu                         |
+| =M-Z=     | zap-up-to-char                |
+| =C-c d=   | duplicate-line                |
+| =C-cl=    | org-store-link                |
+| =C-ca=    | org-agenda                    |
+| =M-p=     | ian/format-code               |
+
+
 * Handling Updates
 If you decide to use this configuration (you shouldn't!), you'll have to update the configuration by running =git pull= and then run
 =M-x <RET> package-list-packages=, followed by =u= and =x=.
