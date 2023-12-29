@@ -11,11 +11,11 @@
 ;; I'm not certain why the Emacs authors decided on OPT as Meta instead
 ;; of CMD. It's something that makes me want to fucking puke.
 (if (eq system-type 'darwin)
-    (setq mac-option-key-is-meta nil
-          mac-command-key-is-meta t
-          mac-command-modifier 'meta)
-  (progn
-    (setq mac-option-modifier 'super)
-    (setq ns-function-modifier 'hyper)))
+    (progn
+      (setq mac-option-modifier 'super)
+      (setq ns-function-modifier 'hyper)
+      (setq mac-command-modifier 'meta)
+      (setq mac-option-key-is-meta nil)
+      (setq mac-command-key-is-meta t)))
 
 ;;; nemacs-macos.el ends here

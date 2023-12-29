@@ -9,6 +9,6 @@
   :ensure t
   :defer t)
 
-(global-set-key (kbd "C-c \\") 'devdocs-lookup)
+(global-set-key (kbd "s-1") 'devdocs-lookup)
 
 ;;; nemacs-devdocs.el ends here
