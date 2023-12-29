@@ -31,5 +31,19 @@
 (load-file (concat config-dir "/modules/nemacs-pdf-tools.el"))
 (load-file (concat config-dir "/modules/nemacs-mw-thesaurus.el"))
 (load-file (concat config-dir "/modules/nemacs-restclient.el"))
+(load-file (concat config-dir "/modules/nemacs-multiple-cursors.el"))
+(load-file (concat config-dir "/modules/nemacs-which-key.el"))
+(load-file (concat config-dir "/modules/nemacs-interaction-log.el"))
+(load-file (concat config-dir "/modules/nemacs-helm.el"))
+(load-file (concat config-dir "/modules/nemacs-ace-window.el"))
+(load-file (concat config-dir "/modules/nemacs-avy.el"))
+(load-file (concat config-dir "/modules/nemacs-expand-region.el"))
+(load-file (concat config-dir "/modules/nemacs-magit.el"))
+;;(load-file (concat config-dir "/modules/nemacs-git-gutter.el"))
+;;(load-file (concat config-dir "/modules/nemacs-git-blamer.el"))
+
+(load-file (concat config-dir "/modules/nemacs-custom.el"))
+
+(load-file (concat config-dir "/modules/nemacs-kbds.el"))
 
 ;;; nemacs-bootstrap.el ends here

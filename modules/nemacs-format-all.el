@@ -24,4 +24,6 @@
   ;; Add hook to set clang-format for C/C++ modes
   (add-hook 'prog-mode-hook 'set-clang-format))
 
+(global-set-key (kbd "M-p") 'ian/format-code)
+
 ;;; nemacs-format-all.el ends here

@@ -8,4 +8,6 @@
   :ensure t
   :defer t)
 
+(global-set-key (kbd "M-*") 'mw-thesaurus-lookup)
+
 ;;; nemacs-mw-thesaurus.el ends here

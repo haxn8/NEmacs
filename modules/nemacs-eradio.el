@@ -14,4 +14,8 @@
                         ("cyberia - lainon"  . "https://lainon.life/radio/cyberia.ogg.m3u") ;; cyberpunk-esque electronica
                         ("cafe - lainon"     . "https://lainon.life/radio/cafe.ogg.m3u")))  ;; boring ambient, but with lain
 
+(global-set-key (kbd "C-c z >") 'eradio-play)
+(global-set-key (kbd "C-c z <") 'eradio-stop)
+(global-set-key (kbd "C-c z -") 'eradio-toggle)
+
 ;;; nemacs-eradio.el ends here
