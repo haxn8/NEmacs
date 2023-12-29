@@ -2,6 +2,7 @@
 
 ;;; Commentary:
 ;;; Just my custom shit. I'm not sure where else to place them.
+;;; Or shit I copied online.
 
 ;;; Code:
 
@@ -66,5 +67,15 @@
       (delete-other-windows))))
 
 (global-set-key (kbd "C-c f") 'nemacs/toggle-maximize-buffer)
+
+(defun nemacs/command-of-the-day ()
+  "Show the documentation for a random command.
+Copied from https://github.com/oantolin/emacs-config"
+  (interactive)
+  (let ((commands))
+    (mapatoms (lambda (s)
+                (when (commandp s) (push s commands))))
+    (describe-function
+     (nth (random (length commands)) commands))))
 
 ;;; nemacs-custom.el ends here
