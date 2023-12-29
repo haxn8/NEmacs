@@ -19,7 +19,6 @@
 
 (use-package phpunit
   :ensure t
-  :mode ("\\.php\\'" . phpunit)
   :defer t)
 
 ;;; nemacs-php.el ends here

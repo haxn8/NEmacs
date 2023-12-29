@@ -49,7 +49,8 @@
               ("CANCELLED" :foreground "forest green" :weight bold)
               ("MEETING" :foreground "forest green" :weight bold)
               ("PHONE" :foreground "forest green" :weight bold))))
-;; I don't wan't the keywords in my exports by default
+
+;; I don't want the keywords in my exports by default
 (setq-default org-export-with-todo-keywords nil)
 
 (org-babel-do-load-languages

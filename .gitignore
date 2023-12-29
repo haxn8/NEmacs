@@ -42,7 +42,8 @@ flycheck_*.el
 /ede-projects.el
 /eln-cache/
 /elpa/
-/eshell/
+/eshell/history
+/eshell/lastdir
 /network-security.data
 /places
 /semanticdb
