@@ -69,6 +69,23 @@ I'll work in often. Emacs may/not support languages that aren't mentioned in thi
 | =C-ca=    | org-agenda                    |
 | =M-p=     | ian/format-code               |
 
+* ENV
+Create an =environment-variables= directory in the root, and a file called =custom-env.el=.
+Add these values in:
+
+#+begin_src emacs-lisp
+  ;; custom-env.el
+
+  (setenv "EMACS_CONFIG_PATH" "")
+  (setenv "EMACS_BACKUP_DIR" "")
+  (setenv "EMACS_TRASH_DIR" "")
+  (setenv "EMACS_USERNAME" "")
+  (setenv "EMACS_EMAIL" "")
+  (setenv "HOME_DIR" "")
+  (setenv "TS_SERVER_PATH" "")
+
+  (provide 'custom-env)
+#+end_src
 
 * Handling Updates
 If you decide to use this configuration (you shouldn't!), you'll have to update the configuration by running =git pull= and then run
