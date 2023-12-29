@@ -9,6 +9,7 @@
 
 (defvar home-dir (getenv "HOME_DIR"))
 (defvar config-dir (getenv "EMACS_CONFIG_PATH"))
+(defvar ts-server-path (getenv "TS_SERVER_PATH"))
 
 (load-file (concat config-dir "/core/nemacs-use-package.el"))
 (load-file (concat config-dir "/core/nemacs-macos.el"))
