@@ -22,22 +22,39 @@ By using my configuration, you agree to do so at your own discretion and underst
 Also, please read the [[./LICENSE.txt][LICENSE]].
 
 * Language Support
-Emacs provides built-in language support for many languages, thankfully. The languages are list here are just the languages that
+Emacs provides built-in language support for many languages, thankfully. The languages listed here are just the languages that
 I'll work in often. Emacs may/not support languages that aren't mentioned in this list.
 
 - [X] C/CPP
-- [ ] Zig
+- [X] Zig
 - [X] Rust
-- [ ] Golang
-- [ ] Julia (I did this for you, Aizzat!)
+- [X] Julia (I did this for you, Aizzat!)
 - [X] Clojure
 - [X] Common Lisp
 - [X] Scheme
 - [X] PHP
 - [X] JS/TS
-- [ ] Python
+- [X] Python
+- [X] Bash
 - [X] CSS
 - [X] HTML/Markdown/YAML
+
+I don't write in Go often, and haven't written in it in a few months. If I ever need to, I'll set it up. I'm just lazy today.
+
+** LSP
+We need to install a few things so that LSP works fine.
+
+#+begin_src bash
+  sudo npm i -g intellephense
+  pip3 install pylsp
+  sudo npm i -g typescript-language-server
+#+end_src
+
+I used =clangd= as the LSP for C/CPP which are the languages I write in a lot, therefore I've prioritized support for these languages. 
+
+* OS Support
+Tested on MacOS and Gnu operating systems like Debian and Ubuntu. I'm not certain of whether it works with Windows.
+At a glance, it should work just fine. However, I wouldn't know as I don't use Windows (because its trash).
 
 * Keybindings
 
@@ -68,6 +85,7 @@ I'll work in often. Emacs may/not support languages that aren't mentioned in thi
 | =C-cl=    | org-store-link                |
 | =C-ca=    | org-agenda                    |
 | =M-p=     | ian/format-code               |
+|         |                               |
 
 * ENV
 Create an =environment-variables= directory in the root, and a file called =custom-env.el=.
@@ -86,6 +104,21 @@ Add these values in:
 
   (provide 'custom-env)
 #+end_src
+
+* Themes
+- doom-themes
+- kaolin-themes
+- color-theme-sanityinc-tomorrow
+- ef-themes
+- standard-themes
+- naysayer-theme
+- gruber-darker-theme
+- solarized-theme
+- color-theme-sanityinc-solarized
+- jbeans-theme
+- jetbrains-darcula-theme
+- badwolf-theme
+- lorissan (personal favorite)
 
 * Handling Updates
 If you decide to use this configuration (you shouldn't!), you'll have to update the configuration by running =git pull= and then run
