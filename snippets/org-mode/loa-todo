@@ -1,0 +1,65 @@
+# -*- mode: snippet -*-
+# name: LoaTodo
+# key: <loa
+# --
+
+*** TODO ${1:time} Affirmations + SATS + Read Note [0/4]                 :URGENT:
+SCHEDULED: <${4:date(y-m-d)} ${3:day} ${2:time}>
+- [ ] Super-skilled programmer affirmations + SATS.
+- [ ] Photographic Memory affirmations + SATS.
+- [ ] Desired height affirmations + SATS.
+- [ ] Read note(s).
+#+begin_verse
+"Quick one to say the wish fulfilled is not supposed to be a "Happy feeling". It's supposed to be an acceptance that it's yours kind of feeling. Think about something that you have (a relative, a car, your house, a pet), how do you feel when you think about them/it? That is the feeling that you are looking for, not some orgasmic happiness coursing through yours veins.
+
+Another way from Neville himself is to say to yourself "How would I feel if I had [your-desire] right now?" The feeling that comes up is your feeling of the wish fulfilled."
+#+end_verse
+
+#+begin_verse
+"As for the actual method of working, like all fundamental things, it is simplicity itself. All that you have to do is this: stop thinking about the difficulty, whatever it is, and think about God instead. This is the complete rule, and if only you will do this, the trouble, whatever it is, will presently disappear. It makes no difference what kind of trouble it is. It may be a big thing or a little thing; it may concern health, finance, a lawsuit, a quarrel, an accident, or anything else conceivable; but whatever it is, just stop thinking about it, and think of God instead - that is all you have to do."
+#+end_verse
+*** TODO ${5:time} Affirmations + SATS + Read Note [0/4]                 :URGENT:
+SCHEDULED: <${8:date(y-m-d)} ${7:day} ${6:time}>
+- [ ] Super-skilled programmer affirmations + SATS.
+- [ ] Photographic Memory affirmations + SATS.
+- [ ] Desired height affirmations + SATS.
+- [ ] Read note(s).
+#+begin_verse
+"Quick one to say the wish fulfilled is not supposed to be a "Happy feeling". It's supposed to be an acceptance that it's yours kind of feeling. Think about something that you have (a relative, a car, your house, a pet), how do you feel when you think about them/it? That is the feeling that you are looking for, not some orgasmic happiness coursing through yours veins.
+
+Another way from Neville himself is to say to yourself "How would I feel if I had [your-desire] right now?" The feeling that comes up is your feeling of the wish fulfilled."
+#+end_verse
+
+#+begin_verse
+"As for the actual method of working, like all fundamental things, it is simplicity itself. All that you have to do is this: stop thinking about the difficulty, whatever it is, and think about God instead. This is the complete rule, and if only you will do this, the trouble, whatever it is, will presently disappear. It makes no difference what kind of trouble it is. It may be a big thing or a little thing; it may concern health, finance, a lawsuit, a quarrel, an accident, or anything else conceivable; but whatever it is, just stop thinking about it, and think of God instead - that is all you have to do."
+#+end_verse
+*** TODO ${9:time} Affirmations + SATS + Read Note [0/4]                 :URGENT:
+SCHEDULED: <${12:date(y-m-d)} ${11:day} ${10:time}>
+- [ ] Super-skilled programmer affirmations + SATS.
+- [ ] Photographic Memory affirmations + SATS.
+- [ ] Desired height affirmations + SATS.
+- [ ] Read note(s).
+#+begin_verse
+"Quick one to say the wish fulfilled is not supposed to be a "Happy feeling". It's supposed to be an acceptance that it's yours kind of feeling. Think about something that you have (a relative, a car, your house, a pet), how do you feel when you think about them/it? That is the feeling that you are looking for, not some orgasmic happiness coursing through yours veins.
+
+Another way from Neville himself is to say to yourself "How would I feel if I had [your-desire] right now?" The feeling that comes up is your feeling of the wish fulfilled."
+#+end_verse
+
+#+begin_verse
+"As for the actual method of working, like all fundamental things, it is simplicity itself. All that you have to do is this: stop thinking about the difficulty, whatever it is, and think about God instead. This is the complete rule, and if only you will do this, the trouble, whatever it is, will presently disappear. It makes no difference what kind of trouble it is. It may be a big thing or a little thing; it may concern health, finance, a lawsuit, a quarrel, an accident, or anything else conceivable; but whatever it is, just stop thinking about it, and think of God instead - that is all you have to do."
+#+end_verse
+*** TODO ${13:time} Affirmations + SATS + Read Note [0/4]                 :URGENT:
+SCHEDULED: <${16:date(y-m-d)} ${15:day} ${14:time}>
+- [ ] Super-skilled programmer affirmations + SATS.
+- [ ] Photographic Memory affirmations + SATS.
+- [ ] Desired height affirmations + SATS.
+- [ ] Read note(s).
+#+begin_verse
+"Quick one to say the wish fulfilled is not supposed to be a "Happy feeling". It's supposed to be an acceptance that it's yours kind of feeling. Think about something that you have (a relative, a car, your house, a pet), how do you feel when you think about them/it? That is the feeling that you are looking for, not some orgasmic happiness coursing through yours veins.
+
+Another way from Neville himself is to say to yourself "How would I feel if I had [your-desire] right now?" The feeling that comes up is your feeling of the wish fulfilled."
+#+end_verse
+
+#+begin_verse
+"As for the actual method of working, like all fundamental things, it is simplicity itself. All that you have to do is this: stop thinking about the difficulty, whatever it is, and think about God instead. This is the complete rule, and if only you will do this, the trouble, whatever it is, will presently disappear. It makes no difference what kind of trouble it is. It may be a big thing or a little thing; it may concern health, finance, a lawsuit, a quarrel, an accident, or anything else conceivable; but whatever it is, just stop thinking about it, and think of God instead - that is all you have to do."
+#+end_verse

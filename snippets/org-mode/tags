@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: tags
+# key: <wtag
+# --
+
+#+TITLE: ${1:title}
+#+AUTHOR: ${2:author}
+#+STARTUP: overview
+#+OPTIONS: num:nil
+#+EMAIL: ${3:email}
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+TAGS: WORK(o) URGENT(u) TODO(t) HANDOVER(h) EMACS(e)

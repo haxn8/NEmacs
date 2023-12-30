@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Docker
+# key: <Docker
+# --
+#+begin_src docker
+#+end_src

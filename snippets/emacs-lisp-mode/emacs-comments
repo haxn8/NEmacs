@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: emacslispcomment
+# key: <elc
+# --
+
+;;; ${1:file-name}.el --- ${2:description} -*- lexical-binding: t -*-
+;;
+;; Copyright (C) 2023 NateNateNate
+;;
+;; Author: NateNateNate <natenatenat3@protonmail.com>
+
+
