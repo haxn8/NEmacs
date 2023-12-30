@@ -114,4 +114,9 @@
   (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
   (org-babel-do-load-languages 'org-babel-load-languages '((plantuml . t))))
 
+;; Enable aspell for spell-checking in Org mode
+(add-hook 'org-mode-hook 'flyspell-mode)
+(setq ispell-program-name "aspell") ;; Set aspell as the default spell checker
+(setq ispell-dictionary "english") ;; Set the default dictionary to English
+
 ;;; nemacs-org-mode.el ends here

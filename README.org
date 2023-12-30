@@ -57,6 +57,7 @@ Tested on MacOS and Gnu operating systems like Debian and Ubuntu. I'm not certai
 At a glance, it should work just fine. However, I wouldn't know as I don't use Windows (because its trash).
 
 * Keybindings
+The list of keybindings or remaps that I can recall.
 
 | Kbd     | Function                      |
 | =s-1=     | devdocs-lookup                |
@@ -85,7 +86,6 @@ At a glance, it should work just fine. However, I wouldn't know as I don't use W
 | =C-cl=    | org-store-link                |
 | =C-ca=    | org-agenda                    |
 | =M-p=     | ian/format-code               |
-|         |                               |
 
 * ENV
 Create an =environment-variables= directory in the root, and a file called =custom-env.el=.
