@@ -104,7 +104,7 @@ to like it, and therefore use =DEL= as my backspace now. It used to annoy me at 
 for every Emacsen. You can always redefine them, but fuck that.
 
 ** MU4E
-I don't ever use get emails on my personal email except for spam and porn. The company I work at does not allow third party Google-
+I don't ever use get emails on my personal email except for spam from porn sites. The company I work at does not allow third party Google-
 Apps on our accounts, therefore I'm not able to get MU4E working for my work email. It's sad, but nothing I can do about it. I'm open
 to adding it in but I just don't have a usage for it. My personal email ([[https://proton.me][Proton Mail]]) doesn't allow third-party apps either,
 so I'm fucked even if I received a million important emails on my personal email.
