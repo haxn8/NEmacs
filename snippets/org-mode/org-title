@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Org File Setup
+# key: <T
+# --
+
+#+TITLE: ${1:title}
+#+AUTHOR: ${2:author}
+#+STARTUP: overview
+#+OPTIONS: num:nil
+#+EMAIL: ${3:email}
+#+SETUPFILE: /Users/natenatenate/Dotfiles/.emacs/OrgThemes/org-themes/src/retro_dark/retro_dark.theme

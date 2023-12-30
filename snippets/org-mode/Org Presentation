@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: Org Presentation
+# key: <P
+# --
+
+#+REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+END:
+
+#+TITLE: 
+#+AUTHOR: NateNateNate
+#+EMAIL: natenatenat3@protonmail.com
+#+OPTIONS: num:nil
+#+DATE: 

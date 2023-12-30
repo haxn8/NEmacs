@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: PHP Constructor
+# key: __construct
+# --
+
+${1:visibility} function __construct()
+{
+}

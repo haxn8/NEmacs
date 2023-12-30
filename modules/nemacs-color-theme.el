@@ -8,6 +8,10 @@
   :ensure t
   :defer t)
 
+(use-package sublime-themes
+  :ensure t
+  :defer t)
+
 (use-package kaolin-themes
   :ensure t
   :defer t)

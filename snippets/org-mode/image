@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: image
+# key: <image
+# --
+
+[[path/to/image]][image-name]
