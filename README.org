@@ -21,7 +21,9 @@ By using my configuration, you agree to do so at your own discretion and underst
 
 Also, please read the [[./LICENSE.txt][LICENSE]].
 
-* Language Support
+* Modes
+
+** Languages
 Emacs provides built-in language support for many languages, thankfully. The languages listed here are just the languages that
 I'll work in often. Emacs may/not support languages that aren't mentioned in this list.
 
@@ -41,7 +43,7 @@ I'll work in often. Emacs may/not support languages that aren't mentioned in thi
 
 I don't write in Go often, and haven't written in it in a few months. If I ever need to, I'll set it up. I'm just lazy today.
 
-** LSP
+** Eglot
 We need to install a few things so that LSP works fine.
 
 #+begin_src bash
@@ -50,42 +52,115 @@ We need to install a few things so that LSP works fine.
   sudo npm i -g typescript-language-server
 #+end_src
 
-I used =clangd= as the LSP for C/CPP which are the languages I write in a lot, therefore I've prioritized support for these languages. 
+I used =clangd= as the LSP for C/CPP which are the languages I write in a lot, therefore I've prioritized support for these languages.
+
+I hate Python and only use it when I have to (I absolutely hate the indentation requirements).
+
+Julia LSP will be setup after I'm able I'm comfortable with the language. Its a thing I do where I only use auto-completion and linting
+after I've familiarized myself with a language. Same reason why I didn't setup =zls= with =eglot= on =zig-mode= or =rls= for =rust-mode=.
+
+Emacs provides the "lsp" for Emacs Lisp, which is great.
+
+** Org Mode
+I use org mode extensively for notes, presentations, or to show-off to my co-workers who're stuck in Markdown with VSC. They all fawn over
+org-mode, because its the greatest format ever. I use =org-babel= a lot to run code, and [[https://github.com/plantuml/plantuml][PlantUML]] for UML diagrams (I tried =artist-mode=, but
+I think its just not that great). I'm able to evaluate PlantUML blocks in Org mode with =plantuml :file flow.png= (in a =begin_src= block) and
+run =C-c= to generate the diagram. I have =org-toggle-inline-images= always on so that I can immediately view the images generated in the org-
+file. It can turned on with =C-c C-x v=.
+
+My previous configuration was in an org file as well, however, I felt that it was getting to messy as I had multiple org-files and it was
+getting out of hand. For small configurations, I feel that the "literate configuration" approach with org mode works kinda well.
+
+I've set =aspell-mode= to be on for org mode by default. It will highlight words that are wrongly spelt.
+
+** Markdown Mode
+I don't use Markdown much. Only when I'm editing a README file at work (if it's not org mode, its wrong!)
+
+I have configured Emacs to work with Markdown. Surprisingly, by default it doesn't even have syntax highlighting for it. I think Stallman
+just wanted us to use Org mode.
+
+I'm not certain if the markdown package I installed works well, because I'm hardly ever in a markdown file.
+
+** Eshell
+I like E-shell. It provides me with solid shell-integration that I was used to in my previous life (Vim + Tmux). With E-shell, I can
+run Emacs-lisp in a shell, its quite nice. I have my aliases set in =NEmacs/eshell/alias=. I find them quite handy, i.e. opening files
+with =find-file <filename>= because =ff <filename=. Just like your normal Zsh alias.
+
+** Terminal Emulator
+I feel like ansi-term is lacking in a lot of features. Even the built-in Neovim terminal is much better than ansi-term (lol!)
+
+I've moved to =vterm=, but again, because of Eshell I hardly touch it. I know for a fact that =vterm= is not bad, though. It's not as
+nice as something like =kitty= or =alacritty=, but I'm able to run Nvim (xD!) inside of it. I usually manage my =tmux= stuff from Vterm
+and use it for things like Julia REPL (=C-c z= in =julia-mode=).
+
+** Dired
+I love Dired. Its the best file manager I've ever used. I like it more than =ranger=. I highly recommend that you use =dired= if
+you're not already using it. I don't use any other file manager but =dired=. You can run =C-h m= in =dired= to get the list of
+key bindings you can run.
+
+** Backspace Key
+Because "GNU's NOT UNIX", the Unix backspace that we're all used to in our shell (=C-h=) triggers the help in Emacs. I've grown
+to like it, and therefore use =DEL= as my backspace now. It used to annoy me at first, but =C-h= is the most important function
+for every Emacsen. You can always redefine them, but fuck that.
+
+** MU4E
+I don't ever use get emails on my personal email except for spam and porn. The company I work at does not allow third party Google-
+Apps on our accounts, therefore I'm not able to get MU4E working for my work email. It's sad, but nothing I can do about it. I'm open
+to adding it in but I just don't have a usage for it. My personal email ([[https://proton.me][Proton Mail]]) doesn't allow third-party apps either,
+so I'm fucked even if I received a million important emails on my personal email.
+
+** Evil / Viper
+I moved from Vim to Emacs (Sorry, [[https://www.youtube.com/@ThePrimeagen][ThePrimeAgen]] but Emacs is the greatest computer program to ever exists!), and used Evil at first. After a while,
+I found that the default Emacs bindings (Holy bindings) were actually quite nice and worked very well with Emacs (obviously). I made the switch
+very quickly and haven't looked back. I haven't found that Holy bindings hurt my fingers at all, I guess that's a lie spread by the devil to prevent
+man kind from using Emacs.
+
+** Web Development
+My Emacs configuration is geared towards C/CPP and Web development (PHP, JS, TS). I don't have support for things like Vue or Svelte yet as I don't
+write in them (thankfully!) Unfortunately I have to at times write in JS, which I hate.
+
+There are also more unfortunate times when I have to write in PHP with HTML, CSS and Javascript all in one file. In those cases, when the file extension
+is =.php=, web mode doesn't work in there. With =web-mode=, it takes over and prevents my LSP with =eglot= from running because =eglot= is configured to run with
+intellephense on =php-mode=. Things like Emmet and HTML/CSS nice stuff don't work. Thankfully, I haven't found myself in this situation in while because the
+PHP code base I work with isn't that PHP.
 
 * OS Support
-Tested on MacOS and Gnu operating systems like Debian and Ubuntu. I'm not certain of whether it works with Windows.
-At a glance, it should work just fine. However, I wouldn't know as I don't use Windows (because its trash).
+Tested on MacOS and Gnu operating systems like Debian and Ubuntu. At a glance, it should work fine on Windows. I don't use Windows (because its trash).
 
 * Keybindings
 The list of keybindings or remaps that I can recall.
 
-| Kbd     | Function                      |
-| =s-1=     | devdocs-lookup                |
-| =C-c r=   | nemacs/config-reload          |
-| =C-c e=   | nemacs/config-visit           |
-| =C-c f=   | nemacs/toggle-maximize-buffer |
-| =C-c z >= | eradio-play                   |
-| =C-c z <= | eradio-stop                   |
-| =C-c z -= | eradio-toggle                 |
-| =C-x g=   | magit-status                  |
-| =M-o=     | ace-window                    |
-| =M-O=     | ace-swap-window               |
-| C-=     | er/expand-region              |
-| =M-+=     | helm-themes                   |
-| =C-c b=   | switch-to-buffer              |
-| =M-y=     | helm-show-kill-ring           |
-| =M-n=     | avy-goto-char                 |
-| =M-?=     | Mark paragraph                |
-| =C-c M-p= | find-file-at-point            |
-| =C-c m=   | delete pair                   |
-| =C-x C-.= | align-regexp                  |
-| =C-c h=   | compile                       |
-| =C-c c=   | imenu                         |
-| =M-Z=     | zap-up-to-char                |
-| =C-c d=   | duplicate-line                |
-| =C-cl=    | org-store-link                |
-| =C-ca=    | org-agenda                    |
-| =M-p=     | ian/format-code               |
+| Kbd         | Function                      |
+| =s-1=         | devdocs-lookup                |
+| =C-c r=       | nemacs/config-reload          |
+| =C-c e=       | nemacs/config-visit           |
+| =C-c f=       | nemacs/toggle-maximize-buffer |
+| =C-c z >=     | eradio-play                   |
+| =C-c z <=     | eradio-stop                   |
+| =C-c z -=     | eradio-toggle                 |
+| =C-x g=       | magit-status                  |
+| =M-o=         | ace-window                    |
+| =M-O=         | ace-swap-window               |
+| C-=         | er/expand-region              |
+| =M-+=         | helm-themes                   |
+| =C-c b=       | switch-to-buffer              |
+| =M-y=         | helm-show-kill-ring           |
+| =M-n=         | avy-goto-char                 |
+| =M-?=         | Mark paragraph                |
+| =C-c M-p=     | find-file-at-point            |
+| =C-c m=       | delete pair                   |
+| =C-x C-.=     | align-regexp                  |
+| =C-c h=       | compile                       |
+| =C-c c=       | imenu                         |
+| =M-Z=         | zap-up-to-char                |
+| =C-c d=       | duplicate-line                |
+| =C-cl=        | org-store-link                |
+| =C-ca=        | org-agenda                    |
+| =M-p=         | ian/format-code               |
+
+I always run =C-h m= in a buffer to get the key bindings I can run on that buffer based on its mode.
+That's the best way to know what you can do in a buffer. It shows the key bindings for both major 
+and minor modes.
 
 * ENV
 Create an =environment-variables= directory in the root, and a file called =custom-env.el=.
