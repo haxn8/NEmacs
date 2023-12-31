@@ -18,7 +18,7 @@
 (global-set-key (kbd "C-c h") 'compile)
 (global-set-key (kbd "C-c c") 'imenu)
 
-(global-set-key (kbd "\M-Z") 'zap-up-to-char)
+(global-set-key "\M-Z" 'zap-up-to-char)
 (global-set-key (kbd "C-c d") 'duplicate-line)
 
 ;;; nemacs-kbds.el ends here

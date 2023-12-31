@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: printarr
+# key: <printarr
+# --
+
+for (int ${1:var} = 0; ${2:var} < sizeof(${6:arr}) / sizeof(${7:arr}[0]); ${3:var}++) {
+    printf("${8:arr}[%d] = %d\n", ${4:var}, ${9:arr}[${5:var}]);
+}
