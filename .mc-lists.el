@@ -3,10 +3,12 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	c-electric-brace
 	c-electric-semi&comma
 	kill-region
 	))
 
 (setq mc/cmds-to-run-once
       '(
+	org-self-insert-command
 	))
