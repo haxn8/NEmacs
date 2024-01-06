@@ -8,7 +8,7 @@
 
 (defun nemacs/set-font-and-line-spacing ()
   "Set font and line spacing based on availability."
-  (let ((desired-font "IBM Plex Mono")
+  (let ((desired-font "VictorMono Nerd Font Mono")
         (default-font (cond ((eq system-type 'darwin) "Menlo")
                             ((eq system-type 'gnu/linux) "Monospace")
                             ((eq system-type 'windows-nt) "Consolas"))))
