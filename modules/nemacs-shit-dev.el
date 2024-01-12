@@ -15,6 +15,10 @@
 
 (add-hook 'javascript-mode 'js2-mode)
 
+(use-package typescript-mode
+  :ensure t
+  :defer t)
+
 ;; Why skewer?
 ;; Watch this: https://www.youtube.com/watch?v=4tyTgyzUJqM
 ;; Its actually pretty neat!
@@ -34,8 +38,8 @@
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html\\.twig\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.ts\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.ts\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
 (add-hook 'web-mode-before-auto-complete-hooks 'company-mode-hook)

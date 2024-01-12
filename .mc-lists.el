@@ -4,7 +4,9 @@
 (setq mc/cmds-to-run-for-all
       '(
 	c-electric-brace
+	c-electric-delete-forward
 	c-electric-semi&comma
+	ian/format-code
 	kill-region
 	))
 
