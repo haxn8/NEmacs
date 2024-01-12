@@ -13,6 +13,7 @@
 	`((c-mode . ("clangd"))
           (c++-mode . ("clangd"))
           (js-mode . ("typescript-language-server" "--stdio" ,(concat "--tsserver-path=" ts-server-path)))
+          (typescript-mode . ("typescript-language-server" "--stdio" ,(concat "--tsserver-path=" ts-server-path)))
           (php-mode . ("intelephense" "--stdio"))
           (python-mode . ("pylsp"))))  ;; Use pylsp for Python mode
 
@@ -22,6 +23,9 @@
 
   ;; Automatically start eglot for JavaScript files
   (add-hook 'js-mode-hook 'eglot-ensure)
+
+  ;; Automatically start eglot for typescript files
+  (add-hook 'typescript-mode-hook 'eglot-ensure)
 
   ;; Automatically start eglot for PHP files
   (add-hook 'php-mode-hook 'eglot-ensure)
