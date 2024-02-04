@@ -16,7 +16,7 @@
     ;; Check if desired font exists
     (if (nemacs/font-exists-p desired-font)
         (progn
-          (set-face-attribute 'default nil :font desired-font :height 170 :weight 'regular)
+          (set-face-attribute 'default nil :font desired-font :height 150 :weight 'regular)
           (setq-default line-spacing 0.12))
       ;; Use default font if desired font does not exist
       (progn
@@ -24,5 +24,4 @@
         (setq-default line-spacing 0.1)))))
 
 (nemacs/set-font-and-line-spacing)
-
 ;;; nemacs-font.el ends here

@@ -5,9 +5,12 @@
       '(
 	c-electric-brace
 	c-electric-delete-forward
+	c-electric-paren
 	c-electric-semi&comma
+	helm-occur
 	ian/format-code
 	kill-region
+	zap-up-to-char
 	))
 
 (setq mc/cmds-to-run-once
