@@ -58,6 +58,7 @@
 
 ;; Themes that aren't on elpa
 (add-to-list 'custom-theme-load-path (concat config-dir "/site-lisp/zenburn-emacs/"))
+(add-to-list 'custom-theme-load-path (concat config-dir "/site-lisp/hc-zenburn-emacs/"))
 (add-to-list 'custom-theme-load-path (concat config-dir "/site-lisp/emacs-color-theme-solarized/"))
 
 ;; The best theme there is.
