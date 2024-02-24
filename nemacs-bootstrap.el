@@ -8,6 +8,7 @@
 ;;; Code:
 
 (defvar home-dir (getenv "HOME_DIR"))
+(defvar backup-dir (getenv "EMACS_BACKUP_DIR"))
 (defvar config-dir (getenv "EMACS_CONFIG_PATH"))
 (defvar ts-server-path (getenv "TS_SERVER_PATH"))
 
@@ -50,6 +51,7 @@
 (load-file (concat config-dir "/modules/nemacs-yas.el"))
 (load-file (concat config-dir "/modules/nemacs-docker.el"))
 (load-file (concat config-dir "/modules/nemacs-yaml.el"))
+(load-file (concat config-dir "/modules/nemacs-undo-tree.el"))
 ;;(load-file (concat config-dir "/modules/nemacs-git-gutter.el"))
 ;;(load-file (concat config-dir "/modules/nemacs-git-blamer.el"))
 
