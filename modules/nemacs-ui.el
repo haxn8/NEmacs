@@ -17,7 +17,8 @@
 (global-hl-line-mode +1)
 
 ;; Relative line numbers in `prog-mode' only.
-(add-hook 'prog-mode-hook (lambda () (setq display-line-numbers 'relative)))
+;; disabled temporarily
+;;(add-hook 'prog-mode-hook (lambda () (setq display-line-numbers 'relative)))
 
 (load-file (concat config-dir "/modules/nemacs-color-theme.el"))
 (load-file (concat config-dir "/modules/nemacs-font.el"))

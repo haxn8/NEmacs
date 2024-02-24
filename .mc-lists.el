@@ -7,6 +7,7 @@
 	c-electric-delete-forward
 	c-electric-paren
 	c-electric-semi&comma
+	duplicate-line
 	helm-occur
 	ian/format-code
 	kill-region
@@ -15,5 +16,6 @@
 
 (setq mc/cmds-to-run-once
       '(
+	org-delete-char
 	org-self-insert-command
 	))
