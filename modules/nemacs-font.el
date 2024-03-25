@@ -8,7 +8,7 @@
 
 (defun nemacs/set-font-and-line-spacing ()
   "Set font and line spacing based on availability."
-  (let ((desired-font "Martian Mono")
+  (let ((desired-font "CodeNewRoman Nerd Font Propo")
         (default-font (cond ((eq system-type 'darwin) "Menlo")
                             ((eq system-type 'gnu/linux) "Monospace")
                             ((eq system-type 'windows-nt) "Consolas"))))
@@ -20,7 +20,7 @@
           (setq-default line-spacing 0.19))
       ;; Use default font if desired font does not exist
       (progn
-        (set-face-attribute 'default nil :font default-font :height 150 :weight 'regular)
+        (set-face-attribute 'default nil :font default-font :height 140 :weight 'regular)
         (setq-default line-spacing 0.1)))))
 
 (nemacs/set-font-and-line-spacing)

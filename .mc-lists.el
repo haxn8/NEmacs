@@ -4,6 +4,7 @@
 (setq mc/cmds-to-run-for-all
       '(
 	c-electric-brace
+	c-electric-colon
 	c-electric-delete-forward
 	c-electric-paren
 	c-electric-semi&comma
@@ -11,11 +12,13 @@
 	helm-occur
 	ian/format-code
 	kill-region
+	mark-sexp
 	zap-up-to-char
 	))
 
 (setq mc/cmds-to-run-once
       '(
+	c-electric-slash
 	org-delete-char
 	org-self-insert-command
 	))
