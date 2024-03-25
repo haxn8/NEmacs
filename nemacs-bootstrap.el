@@ -34,6 +34,7 @@
 (load-file (concat config-dir "/modules/nemacs-pdf-tools.el"))
 (load-file (concat config-dir "/modules/nemacs-mw-thesaurus.el"))
 (load-file (concat config-dir "/modules/nemacs-restclient.el"))
+(load-file (concat config-dir "/modules/nemacs-http-client.el"))
 (load-file (concat config-dir "/modules/nemacs-multiple-cursors.el"))
 (load-file (concat config-dir "/modules/nemacs-which-key.el"))
 (load-file (concat config-dir "/modules/nemacs-interaction-log.el"))

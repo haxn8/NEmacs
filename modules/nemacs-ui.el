@@ -21,8 +21,8 @@
 ;;(add-hook 'prog-mode-hook (lambda () (setq display-line-numbers 'relative)))
 
 ;; Add 80 char line limit on prog mode only
-(add-hook 'prog-mode-hook (lambda () (setq fill-column 80)))
-(add-hook 'prog-mode-hook 'display-fill-column-indicator-mode)
+;;(add-hook 'prog-mode-hook (lambda () (setq fill-column 80)))
+;;(add-hook 'prog-mode-hook 'display-fill-column-indicator-mode)
 
 
 (load-file (concat config-dir "/modules/nemacs-color-theme.el"))
